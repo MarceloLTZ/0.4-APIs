@@ -1,8 +1,7 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library;
 
-export 'src/wikipedia_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/api/get_article.dart';
+export 'src/api/search.dart';
+export 'src/model/search_results.dart';
+export 'src/model/summary.dart';
+export 'src/model/title_set.dart';

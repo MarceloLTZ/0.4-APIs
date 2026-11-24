@@ -1,17 +1,13 @@
 name: wikipedia
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-publish_to: none
-# repository: https://github.com/my_org/my_repo
+resolution: workspace
 
 environment:
   sdk: ^3.13.4
 
-resolution: workspace
-
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.9.0
+  http: ^1.2.0
 
 dev_dependencies:
   lints: ^6.0.0
